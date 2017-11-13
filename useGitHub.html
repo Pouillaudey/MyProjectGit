@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Utilisation de GitHub</title>
+</head>
+<body>
+
+    <h1>Mes premiers pas avec Git</h1>
+
+    <div>
+        <h2>GitHub</h2>
+        <p>
+            GitHub est un service en ligne qui permet d'héberger ses repositories de code. GitHub est un outil gratuit pour héberger du code open source, et propose également
+            des plans payants pour les projets de code privés. C'est le numéro 1 mondial et il héberge plus d'une dizaine de millions de repositories !
+        </p>
+
+        <p>Premiere des choses à faire, créer un compte</p>
+    </div>
+
+    <div>
+        <h2>Récupérer un repository sur GitHub</h2>
+        <p>
+            À partir de GitHub, vous pouvez copier un repository sur votre machine. Pour cela, il vous suffit de rechercher le repository qui vous intéresse sur GitHub,
+            de vous y placer, puis d'utiliser l'option "clone URL" en haut à droite de l'écran.
+        </p>
+
+        <p>
+            Cette option vous propose un lien SSH, HTTPS ou Subversion. Ici, nous allons choisir un lien HTTPS, le copier, puis coller ce lien en utilisant la commande
+            git clone dans le dossier que vous aurez choisi sur votre machine : <em>git clone lienFourniParGitHub</em>
+        </p>
+    </div>
+
+    <div>
+        <h2>Créer son propre repository </h2>
+        <p>
+            Il suffit de cliquez sur le bouton "+" en haut à droite, puis "New repository". GitHub vous demandera des renseignements comme le nom, la description, son status et une option "READ ME"
+        </p>
+
+        <p>
+            "READ ME" permet de cloner votre repository sur votre machine. Cette option est à cocher uniquement dans le cas où vous n'avez pas encore créé le repository en question sur votre machine
+        </p>
+    </div>
+
+    <div>
+        <h2>Envoyer nos modifications sur GitHub</h2>
+
+        <p>Pour synchroniser les modifications que vous faites dans votre repo sur votre machine avec votre repo sur GitHub, il suffit : </p>
+        <ul>
+            <li>Ouvrir une console</li>
+            <li>Faire un/des commit des modifications que vous avez ajoutées sur le repository</li>
+            <li>Envoyer nos modifications sur le repository GitHub en utilisant la commande <em>git push origin master</em></li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Récupérer nos modifications depuis GitHub</h2>
+
+        <p>Pour récupérer en local les dernières modifications du repo GitHub, il vous faut utiliser la commande <em>git pull</em> </p>
+        <p> Cette commande envoie dans le répertoire local les dernières modifications de la branche master située sur le remote origin</p>
+    </div>
+
+</body>
+</html>
